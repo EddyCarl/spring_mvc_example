@@ -18,7 +18,7 @@
 
 <p>Let's throw some text up on the screen too!</p>
 
-<form:form>
+<form:form modelAttribute="exercise">
     <table>
         <tr>
             <td>Minutes exercised today:</td>
