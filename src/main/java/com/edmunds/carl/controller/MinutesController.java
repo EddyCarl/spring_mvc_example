@@ -23,7 +23,13 @@ public class MinutesController
     @RequestMapping(value = "/addMinutes")
     public String addMinutes(@ModelAttribute("exercise") Exercise exercise)
     {
-        System.out.println("Printing exercise value: " + exercise.getMinutes());
+        StringBuilder sb = new StringBuilder();
+        sb.append(exercise.getMinutes());
+        sb.append(" minutes of ");
+        sb.append(exercise.getActivity());
+        sb.append(" logged.");
+        System.out.println(sb.toString());
+
         return "addMinutes";
     }
 

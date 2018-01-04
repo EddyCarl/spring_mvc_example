@@ -3,6 +3,7 @@ package com.edmunds.carl.model;
 public class Exercise
 {
     private int minutes;
+    private String activity;
 
     public int getMinutes()
     {
@@ -12,5 +13,15 @@ public class Exercise
     public void setMinutes(int minutes)
     {
         this.minutes = minutes;
+    }
+
+    public String getActivity()
+    {
+        return activity;
+    }
+
+    public void setActivity(String activity)
+    {
+        this.activity = activity;
     }
 }
