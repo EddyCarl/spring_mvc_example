@@ -14,9 +14,11 @@
 </head>
 <body>
 
+<h1>GOAL PAGE</h1>
+
 <p>Here is some text on the goal page!</p>
 
-<form:form >
+<form:form modelAttribute="goal">
 
     <table>
         <tr>
