@@ -21,7 +21,8 @@
               p:paramName="language"/>
     </mvc:interceptors>
 
-    <context:component-scan base-package="com.edmunds.carl.controller" />
+    <context:component-scan base-package="com.edmunds.carl.service,
+                                          com.edmunds.carl.controller" />
 
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" p:order="0" />
 
