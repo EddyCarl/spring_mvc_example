@@ -19,6 +19,8 @@
 
 <p>Let's throw some text up on the screen too!</p>
 
+Languauge : <a href="?language=en">English</a> | <a href="?language=es">Spanish</a>
+
 <form:form modelAttribute="exercise">
     <table>
         <tr>
